@@ -35,14 +35,14 @@ void TesteService()
 	Produs produsAcelasi("Nume", "Aliment", 15, "Nestle");
 	RepoProduse repo;
 	ProduseService service(repo);
-	assert(service.GetAllProduseService().size() == 0);
+	assert(service.GetAllProduseService().len() == 0);
 	service.AdaugaProdusService("Nume", "Aliment", 15, "Nestle");
-	assert(service.GetAllProduseService().size() == 1);
+	assert(service.GetAllProduseService().len() == 1);
 	service.StergeProdusService("Nume", "Aliment", 15, "Nestle");
-	assert(service.GetAllProduseService().size() == 0);
+	assert(service.GetAllProduseService().len() == 0);
 	
 	service.AdaugaProdusService("Nume", "Aliment", 15, "Nestle");
 	service.ModificaProdusService("Nume", "Aliment", 15, "Nestle", "AltNume", "Electronice", 15, "Philips");
-	assert(service.GetAllProduseService()[0] == produs2);
+	assert(service.GetAllProduseService().get(0) == produs2);
 	assert(service.CautaProdusDupaNumeTipService("AltNume", "Electronice") == produs2);
 }

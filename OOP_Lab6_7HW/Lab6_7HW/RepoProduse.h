@@ -1,17 +1,18 @@
 #pragma once
 #include "Produs.h"
+#include "VectorDinamic.h"
 
-#include <vector>
+//#include <vector>
 #include <string>
 #include <ostream>
 
-using std::vector;
+//using std::vector;
 using std::string;
 using std::ostream;
 
 class RepoProduse 
 {
-	vector<Produs> produse;
+	ListaRepo<Produs> produse;
 
 	/*
 	Verifica daca exista deja produs in repo
@@ -56,7 +57,7 @@ public:
 	/*
 	returneaza toate produsele salvate in repo
 	*/
-	const vector<Produs>& GetAllProduse() const noexcept;
+	const ListaRepo<Produs> &GetAllProduse() const noexcept;
 
 	/*
 	Modifica produsul produsDeModificat din lista cu noul produs produsPentruModificat

@@ -44,5 +44,8 @@
     <ClInclude Include="ServiceProduse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="VectorDinamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

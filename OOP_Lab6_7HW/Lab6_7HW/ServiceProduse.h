@@ -4,11 +4,11 @@
 #include "Produs.h"
 
 #include <string>
-#include <vector>
+//#include <vector>
 
 #include <functional>
 
-using std::vector;
+//using std::vector;
 using std::function;
 
 class ProduseService
@@ -23,7 +23,7 @@ public:
 	/*
 	returneaza toate produsele in ordinea in care au fost adaugate
 	*/
-	const vector<Produs>& GetAllProduseService() noexcept
+	const ListaRepo<Produs>& GetAllProduseService() noexcept
 	{
 		return repo.GetAllProduse();
 	}

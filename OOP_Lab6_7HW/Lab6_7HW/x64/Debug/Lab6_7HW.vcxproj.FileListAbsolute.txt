@@ -2,3 +2,6 @@ D:\VS codes\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe
 C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe
 C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe.lastcodeanalysissucceeded
 C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe
+C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe.lastcodeanalysissucceeded
+C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\NativeCodeAnalysis.read.1.tlog

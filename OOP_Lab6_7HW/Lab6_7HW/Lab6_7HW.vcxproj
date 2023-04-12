@@ -143,6 +143,7 @@
     <ClInclude Include="RepoProduse.h" />
     <ClInclude Include="ServiceProduse.h" />
     <ClInclude Include="ui.h" />
+    <ClInclude Include="VectorDinamic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

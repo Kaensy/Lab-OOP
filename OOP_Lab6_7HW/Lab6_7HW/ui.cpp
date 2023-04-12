@@ -86,7 +86,7 @@ void UI::CautaProdusDupaNumeTipUI()
 	cout << "Produs Cautat : " << service.CautaProdusDupaNumeTipService(numeProdus, tipProdus);
 }
 
-void UI::TiparesteToateProduseleUI(const vector<Produs>& produse)
+void UI::TiparesteToateProduseleUI(const ListaRepo<Produs>& produse)
 {
 	cout << "Produse:\n";
 	for (const auto& produs : produse)

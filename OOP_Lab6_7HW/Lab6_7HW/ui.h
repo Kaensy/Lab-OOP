@@ -12,7 +12,7 @@ class UI {
 
 	void ModificaProdusUI();
 
-	void TiparesteToateProduseleUI(const vector<Produs>& produse);
+	void TiparesteToateProduseleUI(const ListaRepo<Produs>& produse);
 
 	void CautaProdusDupaNumeTipUI();
 

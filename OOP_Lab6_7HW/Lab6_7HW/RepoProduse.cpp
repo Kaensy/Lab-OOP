@@ -23,7 +23,7 @@ void RepoProduse::StergeProdusRepo(const Produs& produs)
 	{
 		throw RepoProduseException("Produsul nu exista in lista");
 	}
-	produse.erase(produse.begin() + CautaPozitiaProdusRepo(produs));
+	produse.erase(CautaPozitiaProdusRepo(produs),CautaPozitiaProdusRepo(produs));
 }
 
 bool RepoProduse::ExistaProdusInLista(const Produs& produs) const
@@ -50,11 +50,11 @@ const Produs& RepoProduse::CautaProdusDupaNumeTipRepo(string numeProdus, string 
 const Produs& RepoProduse::CautaProdusDupaNumeTipPretProducatorRepo(string numeProdus, string tipProdus, int pretProdus, string numeProducator) const
 {
 	Produs produsCautat(numeProdus, tipProdus, pretProdus, numeProducator);
-	for (const auto& produs : produse)
+	for (const auto& produsCurent : produse)
 	{
-		if (produsCautat == produs)
+		if (produsCautat == produsCurent)
 		{
-			return produs;
+			return produsCurent;
 		}
 	}
 	throw RepoProduseException("Nu exista produsul : " + numeProdus + " de tipul : " + tipProdus + " produs de " + numeProducator);}
@@ -73,7 +73,7 @@ const int RepoProduse::CautaPozitiaProdusRepo(const Produs& produs) const
 	throw RepoProduseException("Nu exista produsul");
 }
 
-const vector<Produs>& RepoProduse::GetAllProduse() const noexcept
+const ListaRepo<Produs>& RepoProduse::GetAllProduse() const noexcept
 {
 	return produse;
 }
@@ -88,7 +88,7 @@ void RepoProduse::ModificaProdusRepo(const Produs& produsDeModificat, const Prod
 	{
 		throw RepoProduseException("Produsul deja exista in lista");
 	}
-	produse[CautaPozitiaProdusRepo(produsDeModificat)] = produsPentruModificat;
+	produse.set(CautaPozitiaProdusRepo(produsDeModificat), produsPentruModificat);
 }
 
 ostream& operator<<(ostream& out, const RepoProduseException& exception) 
@@ -107,7 +107,7 @@ void TesteRepo()
 	
 	repo.AdaugaProdusRepo(produs1);
 	repo.AdaugaProdusRepo(produs2);
-	assert(repo.GetAllProduse().size() == 2);
+	assert(repo.GetAllProduse().len() == 2);
 	assert(repo.CautaProdusDupaNumeTipPretProducatorRepo("Nume", "Aliment", 15, "Nestle") == produs1);
 
 	try 
@@ -125,8 +125,8 @@ void TesteRepo()
 	}
 
 	repo.StergeProdusRepo(produs1);
-	assert(repo.GetAllProduse().size() == 1);
-	assert(repo.GetAllProduse()[0] == produs2);
+	assert(repo.GetAllProduse().len() == 1);
+	assert(repo.GetAllProduse().get(0) == produs2);
 
 	try
 	{
@@ -173,7 +173,7 @@ void TesteRepo()
 	}
 
 	repo.ModificaProdusRepo(produs2, produs1);
-	assert(repo.GetAllProduse()[0] == produs1);
+	assert(repo.GetAllProduse().get(0) == produs1);
 
 	try
 	{
