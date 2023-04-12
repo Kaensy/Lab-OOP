@@ -1,0 +1,2038 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Produs::{ctor}",
+                  "decoratedName": "??0Produs@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TesteProdus",
+                  "decoratedName": "?TesteProdus@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 46
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9df2efb6bbeb62e50847689ca717294efcb1f3f4ba09979760cbde0595d758a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d8a0bab28316bdfbca1b1fb1331ad67c5f6b1ac460d64765969a0da3d41d331d"
+          }
+        }
+      ]
+    }
+  ]
+}

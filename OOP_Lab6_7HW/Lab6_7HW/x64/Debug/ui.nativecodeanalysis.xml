@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ui.cpp</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'produs' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::TiparesteToateProduseleUI</FUNCTION>
+    <DECORATED>?TiparesteToateProduseleUI@UI@@AEAAXAEBV?$vector@VProdus@@V?$allocator@VProdus@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ui.cpp</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer '(this-&gt;UI::service)' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>UI::run</FUNCTION>
+    <DECORATED>?run@UI@@QEAAXXZ</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

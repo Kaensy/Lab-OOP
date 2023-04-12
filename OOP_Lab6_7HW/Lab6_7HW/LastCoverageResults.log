@@ -1,0 +1,21 @@
+[2023-04-06 11:30:38] [info] Start Program:
+Path:"C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe"
+Arguments:
+Working directory: "C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\"
+Modules: Selected: C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe Excluded: 
+Sources: Selected: C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW Excluded: ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\mihai\AppData\Local\Temp\audrbqxy.sty 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-04-06 11:30:38] [info] Module: C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe is selected because it matches selected pattern: C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\x64\Debug\Lab6_7HW.exe
+[2023-04-06 11:30:40] [info] ----------------------------------------------------
+[2023-04-06 11:30:40] [info] Coverage binary generated in file: C:\Users\mihai\AppData\Local\Temp\audrbqxy.sty
+[2023-04-06 11:30:40] [info] ----------------------------------------------------

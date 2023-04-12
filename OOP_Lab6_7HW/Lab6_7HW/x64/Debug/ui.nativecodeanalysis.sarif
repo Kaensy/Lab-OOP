@@ -1,0 +1,204 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 2,
+                  "endLine": 18,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Produs::{ctor}",
+                  "decoratedName": "??0Produs@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer 'produs' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 3,
+                  "endLine": 94,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::TiparesteToateProduseleUI",
+                  "decoratedName": "?TiparesteToateProduseleUI@UI@@AEAAXAEBV?$vector@VProdus@@V?$allocator@VProdus@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26823",
+          "message": {
+            "text": "Dereferencing a possibly null pointer '(this->UI::service)' (lifetime.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 31,
+                  "endLine": 120,
+                  "endColumn": 59
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UI::run",
+                  "decoratedName": "?run@UI@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "important"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9df2efb6bbeb62e50847689ca717294efcb1f3f4ba09979760cbde0595d758a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/mihai/Desktop/faculta/An I Sen II/OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2dd19b03dcce1c6a00e81fbb16dc50c0aa1dafb0c4a74c88b14bd0408b461c78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mihai/desktop/faculta/an i sen ii/oop/oop_lab6_7hw/lab6_7hw/ui.h"
+          },
+          "hashes": {
+            "sha-256": "122a5ee90d275b89b43c937c4ea6c9183097ae90fc2425c8bebccfdfbb1c4f06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mihai/desktop/faculta/an i sen ii/oop/oop_lab6_7hw/lab6_7hw/serviceproduse.h"
+          },
+          "hashes": {
+            "sha-256": "4991a71fba65faa4b64d9f8204b81ed2074d6843fcd70e8dbec7ef461146cfaa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mihai/desktop/faculta/an i sen ii/oop/oop_lab6_7hw/lab6_7hw/repoproduse.h"
+          },
+          "hashes": {
+            "sha-256": "e1f2fc95b4819d8bb6a17b63bc72311bb25fa853f552ddf387abb9341d7b911f"
+          }
+        }
+      ]
+    }
+  ]
+}

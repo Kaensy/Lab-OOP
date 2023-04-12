@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::AdaugaProdusService</FUNCTION>
+    <DECORATED>?AdaugaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::AdaugaProdusService</FUNCTION>
+    <DECORATED>?AdaugaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::AdaugaProdusService</FUNCTION>
+    <DECORATED>?AdaugaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::StergeProdusService</FUNCTION>
+    <DECORATED>?StergeProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::StergeProdusService</FUNCTION>
+    <DECORATED>?StergeProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::StergeProdusService</FUNCTION>
+    <DECORATED>?StergeProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H0@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::ModificaProdusService</FUNCTION>
+    <DECORATED>?ModificaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H000H0@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::ModificaProdusService</FUNCTION>
+    <DECORATED>?ModificaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H000H0@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>94</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::ModificaProdusService</FUNCTION>
+    <DECORATED>?ModificaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H000H0@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::ModificaProdusService</FUNCTION>
+    <DECORATED>?ModificaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H000H0@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>110</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>110</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::ModificaProdusService</FUNCTION>
+    <DECORATED>?ModificaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H000H0@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>110</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>110</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>110</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::ModificaProdusService</FUNCTION>
+    <DECORATED>?ModificaProdusService@ProduseService@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H000H0@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>94</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>110</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::CautaProdusDupaNumeTipService</FUNCTION>
+    <DECORATED>?CautaProdusDupaNumeTipService@ProduseService@@QEBAAEBVProdus@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ProduseService::CautaProdusDupaNumeTipService</FUNCTION>
+    <DECORATED>?CautaProdusDupaNumeTipService@ProduseService@@QEBAAEBVProdus@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26458</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>ServiceProduse.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteService</FUNCTION>
+    <DECORATED>?TesteService@@YAXXZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>ServiceProduse.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.2' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.3' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.4' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.5' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.6' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.7' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.8' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.9' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>TesteProdus</FUNCTION>
+    <DECORATED>?TesteProdus@@YAXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Desktop\faculta\An I Sen II\OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>Produs.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
