@@ -2,21 +2,35 @@
 <DEFECTS>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>Produs.h</FILENAME>
-      <LINE>18</LINE>
+      <LINE>19</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26432</DEFECTCODE>
     <DESCRIPTION>If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21).</DESCRIPTION>
     <FUNCTION>Produs::{ctor}</FUNCTION>
     <DECORATED>??0Produs@@QEAA@AEBV0@@Z</DECORATED>
-    <FUNCLINE>18</FUNCLINE>
+    <FUNCLINE>19</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>9</LINE>
       <COLUMN>15</COLUMN>
@@ -28,43 +42,43 @@
     <FUNCLINE>7</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>7</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>15</COLUMN>
@@ -73,7 +87,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>9</LINE>
       <COLUMN>27</COLUMN>
@@ -85,31 +99,31 @@
     <FUNCLINE>7</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>7</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>27</COLUMN>
@@ -118,7 +132,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>9</LINE>
       <COLUMN>50</COLUMN>
@@ -130,19 +144,19 @@
     <FUNCLINE>7</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>7</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>9</LINE>
         <COLUMN>50</COLUMN>
@@ -151,7 +165,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>15</LINE>
       <COLUMN>15</COLUMN>
@@ -163,43 +177,43 @@
     <FUNCLINE>13</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>13</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>15</COLUMN>
@@ -208,7 +222,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>15</LINE>
       <COLUMN>27</COLUMN>
@@ -220,31 +234,31 @@
     <FUNCLINE>13</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>13</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>50</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>27</COLUMN>
@@ -253,7 +267,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>15</LINE>
       <COLUMN>50</COLUMN>
@@ -265,19 +279,19 @@
     <FUNCLINE>13</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>13</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>15</LINE>
         <COLUMN>50</COLUMN>
@@ -286,7 +300,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>21</LINE>
       <COLUMN>26</COLUMN>
@@ -298,43 +312,43 @@
     <FUNCLINE>19</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>19</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
@@ -343,7 +357,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>21</LINE>
       <COLUMN>49</COLUMN>
@@ -355,31 +369,31 @@
     <FUNCLINE>19</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>19</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
@@ -388,7 +402,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>21</LINE>
       <COLUMN>94</COLUMN>
@@ -400,19 +414,19 @@
     <FUNCLINE>19</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>19</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
@@ -421,7 +435,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>22</LINE>
       <COLUMN>30</COLUMN>
@@ -433,91 +447,91 @@
     <FUNCLINE>19</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>19</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>25</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>110</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>110</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>57</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>57</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>30</COLUMN>
@@ -526,7 +540,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>22</LINE>
       <COLUMN>57</COLUMN>
@@ -538,79 +552,79 @@
     <FUNCLINE>19</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>19</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>25</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>110</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>110</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>57</COLUMN>
@@ -619,7 +633,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>22</LINE>
       <COLUMN>110</COLUMN>
@@ -631,67 +645,67 @@
     <FUNCLINE>19</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>19</LINE>
         <COLUMN>21</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>94</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>49</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>26</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>21</LINE>
         <COLUMN>25</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>22</LINE>
         <COLUMN>110</COLUMN>
@@ -700,7 +714,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>28</LINE>
       <COLUMN>40</COLUMN>
@@ -712,25 +726,25 @@
     <FUNCLINE>26</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>26</LINE>
         <COLUMN>30</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>28</LINE>
         <COLUMN>52</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>28</LINE>
         <COLUMN>52</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>28</LINE>
         <COLUMN>40</COLUMN>
@@ -739,7 +753,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>28</LINE>
       <COLUMN>52</COLUMN>
@@ -751,13 +765,13 @@
     <FUNCLINE>26</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>26</LINE>
         <COLUMN>30</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>28</LINE>
         <COLUMN>52</COLUMN>
@@ -766,35 +780,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
-      <FILENAME>ServiceProduse.cpp</FILENAME>
-      <LINE>46</LINE>
-      <COLUMN>1</COLUMN>
-    </SFA>
-    <DEFECTCODE>26446</DEFECTCODE>
-    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
-    <FUNCTION>TesteService</FUNCTION>
-    <DECORATED>?TesteService@@YAXXZ</DECORATED>
-    <FUNCLINE>31</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
-      <FILENAME>ServiceProduse.cpp</FILENAME>
-      <LINE>46</LINE>
-      <COLUMN>1</COLUMN>
-    </SFA>
-    <DEFECTCODE>26458</DEFECTCODE>
-    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
-    <FUNCTION>TesteService</FUNCTION>
-    <DECORATED>?TesteService@@YAXXZ</DECORATED>
-    <FUNCLINE>31</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>33</LINE>
       <COLUMN>16</COLUMN>
@@ -806,43 +792,43 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
@@ -851,7 +837,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>33</LINE>
       <COLUMN>24</COLUMN>
@@ -863,31 +849,31 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
@@ -896,7 +882,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>33</LINE>
       <COLUMN>39</COLUMN>
@@ -908,19 +894,19 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
@@ -929,7 +915,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>34</LINE>
       <COLUMN>16</COLUMN>
@@ -941,91 +927,91 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
@@ -1034,7 +1020,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>34</LINE>
       <COLUMN>27</COLUMN>
@@ -1046,79 +1032,79 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
@@ -1127,7 +1113,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>34</LINE>
       <COLUMN>46</COLUMN>
@@ -1139,67 +1125,67 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
@@ -1208,7 +1194,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>35</LINE>
       <COLUMN>22</COLUMN>
@@ -1220,139 +1206,139 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>45</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>45</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>30</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>30</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>22</COLUMN>
@@ -1361,7 +1347,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>35</LINE>
       <COLUMN>30</COLUMN>
@@ -1373,127 +1359,127 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>45</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>45</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>30</COLUMN>
@@ -1502,7 +1488,7 @@
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ServiceProduse.cpp</FILENAME>
       <LINE>35</LINE>
       <COLUMN>45</COLUMN>
@@ -1514,119 +1500,242 @@
     <FUNCLINE>31</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>31</LINE>
         <COLUMN>5</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>39</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>24</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>33</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>46</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>27</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>34</LINE>
         <COLUMN>15</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ServiceProduse.cpp</FILENAME>
         <LINE>35</LINE>
         <COLUMN>45</COLUMN>
       </SFA>
     </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>RepoProduse.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>RepoProduse::{ctor}</FUNCTION>
+    <DECORATED>??0RepoProduse@@QEAA@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ListaRepo&lt;class Produs&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'ListaRepo&lt;Produs&gt;::get' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::get</FUNCTION>
+    <DECORATED>?get@?$ListaRepo@VProdus@@@@QEBAAEAVProdus@@H@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::get</FUNCTION>
+    <DECORATED>?get@?$ListaRepo@VProdus@@@@QEBAAEAVProdus@@H@Z</DECORATED>
+    <FUNCLINE>106</FUNCLINE>
+    <PATH></PATH>
   </DEFECT>
 </DEFECTS>

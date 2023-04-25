@@ -2,16 +2,125 @@
 <DEFECTS>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>Produs.h</FILENAME>
-      <LINE>18</LINE>
+      <LINE>19</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26432</DEFECTCODE>
     <DESCRIPTION>If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21).</DESCRIPTION>
     <FUNCTION>Produs::{ctor}</FUNCTION>
     <DECORATED>??0Produs@@QEAA@AEBV0@@Z</DECORATED>
-    <FUNCLINE>18</FUNCLINE>
+    <FUNCLINE>19</FUNCLINE>
     <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>RepoProduse.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>RepoProduse::{ctor}</FUNCTION>
+    <DECORATED>??0RepoProduse@@QEAA@XZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ListaRepo&lt;class Produs&gt;', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26823</DEFECTCODE>
+    <DESCRIPTION>Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::{dtor}</FUNCTION>
+    <DECORATED>??1?$ListaRepo@VProdus@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILENAME>VectorDinamic.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
   </DEFECT>
 </DEFECTS>

@@ -20,6 +20,10 @@ public:
 		cout << "!!!!!!!!!!!!!!!!!!!!\n";
 	}
 
+	Produs():numeProdus{NULL},tipProdus{NULL},pretProdus{NULL},producatorProdus{NULL}{}
+
+	~Produs();
+
 	string GetNumeProdus() const 
 	{
 		return numeProdus;

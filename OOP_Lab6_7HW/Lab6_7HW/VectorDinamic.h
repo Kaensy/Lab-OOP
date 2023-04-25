@@ -41,8 +41,8 @@ public:
 	void set(int poz, const T* elem);
 
 	friend class IteratorVector<T>;
-	IteratorVector<T> begin();
-	IteratorVector<T> end();
+	IteratorVector<T> begin() const ;
+	IteratorVector<T> end() const ;
 };
 
 template <typename T> ListaRepo<T>::ListaRepo()
@@ -131,12 +131,12 @@ template <typename T> void ListaRepo<T>::erase(int begin, int end)
 
 
 
-template <typename T> IteratorVector<T> ListaRepo<T>::begin()
+template <typename T> IteratorVector<T> ListaRepo<T>::begin() const
 {
 	return IteratorVector<T>(*this);
 }
 
-template <typename T> IteratorVector<T> ListaRepo<T>::end()
+template <typename T> IteratorVector<T> ListaRepo<T>::end() const
 {
 	return IteratorVector<T>(*this, lungime);
 }
@@ -144,7 +144,7 @@ template <typename T> IteratorVector<T> ListaRepo<T>::end()
 template <typename T> class IteratorVector 
 {
 	const ListaRepo<T>& vector;
-	int poz = 0;
+	int pozitie = 0;
 
 public:
 	IteratorVector(const ListaRepo<T>& vector) noexcept;
@@ -166,21 +166,21 @@ public:
 	bool operator!=(const IteratorVector<T>& other) noexcept;
 };
 
-template <typename T> IteratorVector<T>::IteratorVector<T>(const ListaRepo<T> &vector) noexcept: vector{vector}, poz{0}{}
+template <typename T> IteratorVector<T>::IteratorVector(const ListaRepo<T> &vector) noexcept:vector{ vector }, pozitie{ 0 }{}
 
-template <typename T> IteratorVector<T>::IteratorVector<T>(const ListaRepo<T> &vector, int poz) noexcept : vector{ vector }, poz{ poz } {}
+template <typename T> IteratorVector<T>::IteratorVector(const ListaRepo<T> &vector, int poz) noexcept : vector{ vector }, pozitie{ poz } {}
 
 template <typename T> bool IteratorVector<T>::valid() const {
-	return poz < vector.lungime;
+	return pozitie < vector.lungime;
 }
 
 template <typename T> T& IteratorVector<T>::element() const {
-	return vector.elemente[poz];
+	return vector.elemente[pozitie];
 }
 
 template <typename T> void IteratorVector<T>::next()
 {
-	poz++;
+	pozitie++;
 }
 
 template <typename T> T& IteratorVector<T>::operator*()
@@ -196,7 +196,7 @@ template <typename T> IteratorVector<T>& IteratorVector<T>::operator++()
 
 template <typename T> bool IteratorVector<T>::operator==(const IteratorVector<T>& other) noexcept 
 {
-	return poz == other.poz;
+	return pozitie == other.pozitie;
 }
 
 template <typename T> bool IteratorVector<T>::operator!=(const IteratorVector<T>& other) noexcept

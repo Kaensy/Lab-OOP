@@ -13,7 +13,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
                 },
                 "region": {
                   "startLine": 18,
@@ -33,6 +33,34 @@
           ]
         },
         {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 2,
+                  "endLine": 23,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Produs::{ctor}",
+                  "decoratedName": "??0Produs@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "ruleId": "C26823",
           "message": {
             "text": "Dereferencing a possibly null pointer 'allotemp.1' (lifetime.1)."
@@ -41,7 +69,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 40,
@@ -66,7 +94,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -80,7 +108,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -94,7 +122,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -108,7 +136,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -122,7 +150,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -136,7 +164,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -150,7 +178,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -175,7 +203,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 40,
@@ -200,7 +228,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -214,7 +242,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -228,7 +256,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -242,7 +270,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -256,7 +284,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -281,7 +309,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 40,
@@ -306,7 +334,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -320,7 +348,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -334,7 +362,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -359,7 +387,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 41,
@@ -384,7 +412,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -398,7 +426,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -412,7 +440,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -426,7 +454,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -440,7 +468,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -454,7 +482,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -468,7 +496,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -482,7 +510,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -496,7 +524,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -510,7 +538,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -524,7 +552,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -538,7 +566,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -552,7 +580,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -566,7 +594,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -580,7 +608,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -605,7 +633,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 41,
@@ -630,7 +658,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -644,7 +672,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -658,7 +686,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -672,7 +700,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -686,7 +714,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -700,7 +728,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -714,7 +742,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -728,7 +756,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -742,7 +770,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -756,7 +784,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -770,7 +798,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -784,7 +812,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -798,7 +826,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -823,7 +851,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 41,
@@ -848,7 +876,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -862,7 +890,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -876,7 +904,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -890,7 +918,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -904,7 +932,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -918,7 +946,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -932,7 +960,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -946,7 +974,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -960,7 +988,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -974,7 +1002,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -988,7 +1016,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1013,7 +1041,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 42,
@@ -1038,7 +1066,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -1052,7 +1080,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1066,7 +1094,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1080,7 +1108,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1094,7 +1122,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1108,7 +1136,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1122,7 +1150,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1136,7 +1164,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1150,7 +1178,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1164,7 +1192,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1178,7 +1206,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1192,7 +1220,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1206,7 +1234,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1220,7 +1248,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1234,7 +1262,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1248,7 +1276,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1262,7 +1290,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1276,7 +1304,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1290,7 +1318,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1304,7 +1332,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1318,7 +1346,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1332,7 +1360,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1346,7 +1374,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1371,7 +1399,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 42,
@@ -1396,7 +1424,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -1410,7 +1438,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1424,7 +1452,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1438,7 +1466,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1452,7 +1480,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1466,7 +1494,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1480,7 +1508,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1494,7 +1522,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1508,7 +1536,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1522,7 +1550,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1536,7 +1564,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1550,7 +1578,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1564,7 +1592,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1578,7 +1606,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1592,7 +1620,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1606,7 +1634,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1620,7 +1648,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1634,7 +1662,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1648,7 +1676,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1662,7 +1690,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1676,7 +1704,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1701,7 +1729,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                 },
                 "region": {
                   "startLine": 42,
@@ -1726,7 +1754,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 38,
@@ -1740,7 +1768,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1754,7 +1782,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1768,7 +1796,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1782,7 +1810,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1796,7 +1824,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1810,7 +1838,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1824,7 +1852,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1838,7 +1866,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 40,
@@ -1852,7 +1880,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1866,7 +1894,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1880,7 +1908,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1894,7 +1922,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1908,7 +1936,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1922,7 +1950,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1936,7 +1964,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1950,7 +1978,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 41,
@@ -1964,7 +1992,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1978,7 +2006,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
                           },
                           "region": {
                             "startLine": 42,
@@ -1999,7 +2027,7 @@
         "driver": {
           "name": "PREfast",
           "fullName": "PREfast Code Analysis",
-          "version": "14.35.32216.1",
+          "version": "14.34.31937.0",
           "informationUri": "https://aka.ms/cpp/ca"
         }
       },
@@ -2011,18 +2039,18 @@
       "artifacts": [
         {
           "location": {
-            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
           },
           "roles": [
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "9df2efb6bbeb62e50847689ca717294efcb1f3f4ba09979760cbde0595d758a5"
+            "sha-256": "d5b833260b5c93fc9e880d036d19cc2a63219172c427625d82523fb2e909b132"
           }
         },
         {
           "location": {
-            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
+            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.cpp"
           },
           "roles": [
             "analysisTarget",

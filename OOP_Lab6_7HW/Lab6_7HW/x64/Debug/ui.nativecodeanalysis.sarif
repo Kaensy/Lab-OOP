@@ -13,12 +13,12 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
                 },
                 "region": {
-                  "startLine": 18,
+                  "startLine": 19,
                   "startColumn": 2,
-                  "endLine": 18,
+                  "endLine": 19,
                   "endColumn": 2
                 }
               },
@@ -33,52 +33,28 @@
           ]
         },
         {
-          "ruleId": "C26823",
+          "ruleId": "C26455",
           "message": {
-            "text": "Dereferencing a possibly null pointer 'produs' (lifetime.1)."
+            "text": "Default constructor should not throw. Declare it 'noexcept' (f.6)."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
                 },
                 "region": {
-                  "startLine": 94,
-                  "startColumn": 3,
-                  "endLine": 94,
-                  "endColumn": 11
+                  "startLine": 24,
+                  "startColumn": 2,
+                  "endLine": 24,
+                  "endColumn": 2
                 }
               },
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "UI::TiparesteToateProduseleUI",
-                  "decoratedName": "?TiparesteToateProduseleUI@UI@@AEAAXAEBV?$vector@VProdus@@V?$allocator@VProdus@@@std@@@std@@@Z",
+                  "fullyQualifiedName": "Produs::{ctor}",
+                  "decoratedName": "??0Produs@@QEAA@XZ",
                   "kind": "function"
-                }
-              ]
-            }
-          ],
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
-                          },
-                          "region": {
-                            "startLine": 94,
-                            "startColumn": 8
-                          }
-                        }
-                      },
-                      "importance": "important"
-                    }
-                  ]
                 }
               ]
             }
@@ -93,7 +69,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
                 },
                 "region": {
                   "startLine": 120,
@@ -120,7 +96,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+                            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
                           },
                           "region": {
                             "startLine": 120,
@@ -135,13 +111,153 @@
               ]
             }
           ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'ListaRepo<Produs>::begin' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 55,
+                  "endLine": 134,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaRepo<Produs>::begin",
+                  "decoratedName": "?begin@?$ListaRepo@VProdus@@@@QEBA?AV?$IteratorVector@VProdus@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'ListaRepo<Produs>::end' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 55,
+                  "endLine": 139,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaRepo<Produs>::end",
+                  "decoratedName": "?end@?$ListaRepo@VProdus@@@@QEBA?AV?$IteratorVector@VProdus@@@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Produs>::element' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 45,
+                  "endLine": 177,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Produs>::element",
+                  "decoratedName": "?element@?$IteratorVector@VProdus@@@@QEBAAEAVProdus@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Don't use pointer arithmetic. Use span instead (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 2,
+                  "endLine": 178,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Produs>::element",
+                  "decoratedName": "?element@?$IteratorVector@VProdus@@@@QEBAAEAVProdus@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'IteratorVector<Produs>::next' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/VectorDinamic.h"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 47,
+                  "endLine": 181,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IteratorVector<Produs>::next",
+                  "decoratedName": "?next@?$IteratorVector@VProdus@@@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
         }
       ],
       "tool": {
         "driver": {
           "name": "PREfast",
           "fullName": "PREfast Code Analysis",
-          "version": "14.35.32216.1",
+          "version": "14.34.31937.0",
           "informationUri": "https://aka.ms/cpp/ca"
         }
       },
@@ -153,49 +269,60 @@
       "artifacts": [
         {
           "location": {
-            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
+            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/Produs.h"
           },
           "roles": [
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "9df2efb6bbeb62e50847689ca717294efcb1f3f4ba09979760cbde0595d758a5"
+            "sha-256": "a674b751255dd4daf47c9780fea678a75bc45ad06e50a86d008aece6f167068b"
           }
         },
         {
           "location": {
-            "uri": "file:///C:/Users/user/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
+            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/ui.cpp"
           },
           "roles": [
             "analysisTarget",
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "2dd19b03dcce1c6a00e81fbb16dc50c0aa1dafb0c4a74c88b14bd0408b461c78"
+            "sha-256": "113b8eb7d70448fbc7e02e6676dd92dd5a366ac030668fa948fe66eec8781c3e"
           }
         },
         {
           "location": {
-            "uri": "file:///c:/users/user/documents/github/lab-oop/oop_lab6_7hw/lab6_7hw/ui.h"
+            "uri": "file:///C:/Users/mihai/Documents/GitHub/Lab-OOP/OOP_Lab6_7HW/Lab6_7HW/VectorDinamic.h"
           },
+          "roles": [
+            "resultFile"
+          ],
           "hashes": {
-            "sha-256": "122a5ee90d275b89b43c937c4ea6c9183097ae90fc2425c8bebccfdfbb1c4f06"
+            "sha-256": "53258b8c319715264a1a8b952ef39d449b062c9019a5e70e096cbba8c470ce64"
           }
         },
         {
           "location": {
-            "uri": "file:///c:/users/user/documents/github/lab-oop/oop_lab6_7hw/lab6_7hw/serviceproduse.h"
+            "uri": "file:///c:/users/mihai/documents/github/lab-oop/oop_lab6_7hw/lab6_7hw/ui.h"
           },
           "hashes": {
-            "sha-256": "4991a71fba65faa4b64d9f8204b81ed2074d6843fcd70e8dbec7ef461146cfaa"
+            "sha-256": "aa15f13ee3c2673942b1adc8e76904e1b0bf52d5215b23a8eca5ee5be8399524"
           }
         },
         {
           "location": {
-            "uri": "file:///c:/users/user/documents/github/lab-oop/oop_lab6_7hw/lab6_7hw/repoproduse.h"
+            "uri": "file:///c:/users/mihai/documents/github/lab-oop/oop_lab6_7hw/lab6_7hw/serviceproduse.h"
           },
           "hashes": {
-            "sha-256": "e1f2fc95b4819d8bb6a17b63bc72311bb25fa853f552ddf387abb9341d7b911f"
+            "sha-256": "a5432113cdf368bbf48fb739648a97af445bf0649438cda1fc71b7b8f1c9e91f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mihai/documents/github/lab-oop/oop_lab6_7hw/lab6_7hw/repoproduse.h"
+          },
+          "hashes": {
+            "sha-256": "103cdb001440e4c16fc413bfd73ad04d01e0107c42ede6c8f61d2838c0334bd8"
           }
         }
       ]

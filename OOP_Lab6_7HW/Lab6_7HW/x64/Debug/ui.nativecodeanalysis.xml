@@ -2,42 +2,35 @@
 <DEFECTS>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>Produs.h</FILENAME>
-      <LINE>18</LINE>
+      <LINE>19</LINE>
       <COLUMN>1</COLUMN>
     </SFA>
     <DEFECTCODE>26432</DEFECTCODE>
     <DESCRIPTION>If you define or delete any default operation in the type 'class Produs', define or delete them all (c.21).</DESCRIPTION>
     <FUNCTION>Produs::{ctor}</FUNCTION>
     <DECORATED>??0Produs@@QEAA@AEBV0@@Z</DECORATED>
-    <FUNCLINE>18</FUNCLINE>
+    <FUNCLINE>19</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
-      <FILENAME>ui.cpp</FILENAME>
-      <LINE>94</LINE>
-      <COLUMN>7</COLUMN>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>Produs.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>1</COLUMN>
     </SFA>
-    <DEFECTCODE>26823</DEFECTCODE>
-    <DESCRIPTION>Dereferencing a possibly null pointer 'produs' (lifetime.1).</DESCRIPTION>
-    <FUNCTION>UI::TiparesteToateProduseleUI</FUNCTION>
-    <DECORATED>?TiparesteToateProduseleUI@UI@@AEAAXAEBV?$vector@VProdus@@V?$allocator@VProdus@@@std@@@std@@@Z</DECORATED>
-    <FUNCLINE>89</FUNCLINE>
-    <PATH>
-      <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
-        <FILENAME>ui.cpp</FILENAME>
-        <LINE>94</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-    </PATH>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Produs::{ctor}</FUNCTION>
+    <DECORATED>??0Produs@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
       <FILENAME>ui.cpp</FILENAME>
       <LINE>120</LINE>
       <COLUMN>37</COLUMN>
@@ -49,11 +42,81 @@
     <FUNCLINE>98</FUNCLINE>
     <PATH>
       <SFA>
-        <FILEPATH>C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+        <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
         <FILENAME>ui.cpp</FILENAME>
         <LINE>120</LINE>
         <COLUMN>37</COLUMN>
       </SFA>
     </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>134</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'ListaRepo&lt;Produs&gt;::begin' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::begin</FUNCTION>
+    <DECORATED>?begin@?$ListaRepo@VProdus@@@@QEBA?AV?$IteratorVector@VProdus@@@@XZ</DECORATED>
+    <FUNCLINE>134</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'ListaRepo&lt;Produs&gt;::end' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ListaRepo&lt;Produs&gt;::end</FUNCTION>
+    <DECORATED>?end@?$ListaRepo@VProdus@@@@QEBA?AV?$IteratorVector@VProdus@@@@XZ</DECORATED>
+    <FUNCLINE>139</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Produs&gt;::element' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Produs&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@VProdus@@@@QEBAAEAVProdus@@XZ</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Produs&gt;::element</FUNCTION>
+    <DECORATED>?element@?$IteratorVector@VProdus@@@@QEBAAEAVProdus@@XZ</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\</FILEPATH>
+      <FILENAME>VectorDinamic.h</FILENAME>
+      <LINE>181</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector&lt;Produs&gt;::next' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector&lt;Produs&gt;::next</FUNCTION>
+    <DECORATED>?next@?$IteratorVector@VProdus@@@@QEAAXXZ</DECORATED>
+    <FUNCLINE>181</FUNCLINE>
+    <PATH></PATH>
   </DEFECT>
 </DEFECTS>

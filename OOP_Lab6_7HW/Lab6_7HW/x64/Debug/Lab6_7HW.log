@@ -1,90 +1,30 @@
 ﻿  Lab6_7HW.cpp
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): error C2220: the following warning is treated as an error
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(171): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(52,1): error C2512: 'Produs': no appropriate default constructor available
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(49,1): message : while compiling class template member function 'ListaRepo<Produs>::ListaRepo(void)'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(23,2): message : see reference to function template instantiation 'ListaRepo<Produs>::ListaRepo(void)' being compiled
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(15,20): message : see reference to class template instantiation 'ListaRepo<Produs>' being compiled
+  Produs.cpp
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(15,11): error C2143: syntax error: missing ';' before '<'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(15,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(15,27): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(20,39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(20,39): error C2143: syntax error: missing ',' before '&'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(31,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(31,36): error C2143: syntax error: missing ',' before '&'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(37,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(37,36): error C2143: syntax error: missing ',' before '&'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(43,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(43,14): error C2143: syntax error: missing ';' before '&'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(43,138): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(49,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(49,14): error C2143: syntax error: missing ';' before '&'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(49,8): error C2086: 'const int RepoProduse::Produs': redefinition
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(49,79): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(55,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(55,47): error C2143: syntax error: missing ',' before '&'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(60,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(60,17): error C2143: syntax error: missing ';' before '<'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(60,57): error C2238: unexpected token(s) preceding ';'
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(68,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\mihai\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(68,38): error C2143: syntax error: missing ',' before '&'
   RepoProduse.cpp
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): error C2220: the following warning is treated as an error
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(171): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,34): error C2662: 'IteratorVector<T> ListaRepo<T>::begin(void)': cannot convert 'this' pointer from 'const ListaRepo<Produs>' to 'ListaRepo<Produs> &'
-          with
-          [
-              T=Produs
-          ]
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,34): message : Conversion loses qualifiers
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(44,20): message : see declaration of 'ListaRepo<Produs>::begin'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,34): message : while trying to match the argument list '()'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,34): error C2662: 'IteratorVector<T> ListaRepo<T>::end(void)': cannot convert 'this' pointer from 'const ListaRepo<Produs>' to 'ListaRepo<Produs> &'
-          with
-          [
-              T=Produs
-          ]
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,34): message : Conversion loses qualifiers
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(45,20): message : see declaration of 'ListaRepo<Produs>::end'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,34): message : while trying to match the argument list '()'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(54,2): error C3536: '<begin>$L0': cannot be used before it is initialized
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(54,2): error C3536: '<end>$L0': cannot be used before it is initialized
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(53,41): error C2100: illegal indirection
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(55,7): error C2679: binary '==': no operator found which takes a right-hand operand of type 'const int' (or there is no acceptable conversion)
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\Produs.h(43,7): message : could be 'bool Produs::operator ==(const Produs &) const'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(55,7): message : while trying to match the argument list '(Produs, const int)'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(57,11): error C2440: 'return': cannot convert from 'const int' to 'const Produs &'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(57,11): message : Reason: cannot convert from 'const int' to 'const Produs'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(57,11): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,34): error C2662: 'IteratorVector<T> ListaRepo<T>::begin(void)': cannot convert 'this' pointer from 'const ListaRepo<Produs>' to 'ListaRepo<Produs> &'
-          with
-          [
-              T=Produs
-          ]
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,34): message : Conversion loses qualifiers
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(44,20): message : see declaration of 'ListaRepo<Produs>::begin'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,34): message : while trying to match the argument list '()'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,34): error C2662: 'IteratorVector<T> ListaRepo<T>::end(void)': cannot convert 'this' pointer from 'const ListaRepo<Produs>' to 'ListaRepo<Produs> &'
-          with
-          [
-              T=Produs
-          ]
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,34): message : Conversion loses qualifiers
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(45,20): message : see declaration of 'ListaRepo<Produs>::end'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,34): message : while trying to match the argument list '()'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(66,2): error C3536: '<begin>$L0': cannot be used before it is initialized
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(66,2): error C3536: '<end>$L0': cannot be used before it is initialized
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(65,41): error C2100: illegal indirection
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.cpp(67,20): error C2677: binary '==': no global operator found which takes type 'const Produs' (or there is no acceptable conversion)
   ServiceProduse.cpp
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): error C2220: the following warning is treated as an error
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(171): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(52,1): error C2512: 'Produs': no appropriate default constructor available
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(49,1): message : while compiling class template member function 'ListaRepo<Produs>::ListaRepo(void)'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(23,2): message : see reference to function template instantiation 'ListaRepo<Produs>::ListaRepo(void)' being compiled
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\RepoProduse.h(15,20): message : see reference to class template instantiation 'ListaRepo<Produs>' being compiled
   ui.cpp
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): error C2220: the following warning is treated as an error
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(169): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(171): warning C4812: obsolete declaration style: please use 'IteratorVector<T>::IteratorVector' instead
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,28): error C2662: 'IteratorVector<T> ListaRepo<T>::begin(void)': cannot convert 'this' pointer from 'const ListaRepo<Produs>' to 'ListaRepo<Produs> &'
-          with
-          [
-              T=Produs
-          ]
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,28): message : Conversion loses qualifiers
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(44,20): message : see declaration of 'ListaRepo<Produs>::begin'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,28): message : while trying to match the argument list '()'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,28): error C2662: 'IteratorVector<T> ListaRepo<T>::end(void)': cannot convert 'this' pointer from 'const ListaRepo<Produs>' to 'ListaRepo<Produs> &'
-          with
-          [
-              T=Produs
-          ]
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,28): message : Conversion loses qualifiers
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\VectorDinamic.h(45,20): message : see declaration of 'ListaRepo<Produs>::end'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,28): message : while trying to match the argument list '()'
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(93,2): error C3536: '<begin>$L0': cannot be used before it is initialized
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(93,2): error C3536: '<end>$L0': cannot be used before it is initialized
-C:\Users\user\Documents\GitHub\Lab-OOP\OOP_Lab6_7HW\Lab6_7HW\ui.cpp(92,35): error C2100: illegal indirection
   Running Code Analysis for C/C++...
   Generating Code...
